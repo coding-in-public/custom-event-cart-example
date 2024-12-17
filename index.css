@@ -1,0 +1,30 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  display: grd;
+  place-items: center;
+  padding: var(--size-3);
+  background-color: var(--surface-2);
+}
+
+[data-cart-total] {
+  font-weight: bold;
+  color: var(--blue-5);
+}
+
+ul {
+  display: grid;
+  padding: var(--size-3);
+  gap: var(--size-3);
+  place-content: center;
+  place-items: center;
+  height: 100%;
+  list-style: none;
+  min-height: 60vh;
+}
